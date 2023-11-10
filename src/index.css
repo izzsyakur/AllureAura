@@ -1,0 +1,220 @@
+/* Center the entire page content */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+  background-image: url(background.jpg);
+}
+
+/* Center the header content in a top bar */
+.top-bar {
+  text-align: center;
+  background-color: #777e85;
+  color: #fff;
+  padding: 30px 1;
+}
+
+/* Container for logo and search */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  border: 2px solid #ccc; /* Add border to the container */
+  border-radius: 0px; /* Rounded corners */
+  padding: 5px; /* Add some padding for spacing */
+}
+
+/* Style for the logo */
+.logo {
+  max-width: 200px;
+  margin-left: 30px;
+}
+
+/* Style for the search container */
+.search-container {
+  display: flex;
+  
+}
+
+/* Style for the search input */
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Style for the search button */
+.search-button {
+  background-color: #020406;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style for the search button on hover */
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/* Flex container for the images */
+.image-container {
+  display: flex;
+  justify-content: space-around; /* Adjust the space distribution */
+  flex-wrap: wrap; /* Allow the images to wrap to the next line */
+  margin-top: 50px;
+}
+
+/* Style for the images */
+.image-container img {
+  max-width: 15%; /* Adjust the width as needed */
+  border: 1px solid #7a4d4d; /* Add a border for better visibility */
+  border-radius: 10px;
+  margin: 10px; /* Add margin around images */
+}
+
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.mainWrapper {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #d81818;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: both;
+  overflow: auto;
+  min-height: 50px;
+  max-height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.btn-default {
+  background-color: #b05656;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  color: #b48080;
+  text-decoration: none;
+  transition: color 0.3s; /* Add a smooth transition for the color change */
+}
+
+a:hover {
+
+  color: #55ffa4; /* Change the color on hover */
+  text-decoration: underline; /* Add an underline on hover, for example */
+  cursor: pointer; /* Change the cursor to indicate interactivity */
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center; /* Center items vertically */
+}
+
+.image {
+  width: 30%; /* Adjust the width as needed */
+  margin-bottom: 10px; /* Optional: Add some space between rows */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green color, you can change this */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+.button:hover {
+  background-color: #45a049; /* Darker green color, you can change this */
+}
+
+.content {
+  /* Add your existing styling for .content if any */
+
+  /* Additional styling for the white box */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.product-output {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px; /* Add margin to separate from the content above */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

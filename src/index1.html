@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="index.css" />
+ 
+    
+  </head>
+  <body>
+    <div class="mainWrapper">
+    
+      <h1>Top list Makeup</h1>
+
+      <form>
+        <div class="form-group">
+          <label>Update your list:</label>
+          <input id="fileName" type="text" class="form-control" value="toplist.txt" readonly disabled="False">
+        </div>
+        
+        <div class="form-group">
+          <label>Fill in 5 top makeup:</label>
+          <textarea id="fileContents" class="form-control" rows="5" placeholder="1.&#10;2.&#10;3.&#10;4.&#10;5."></textarea>
+        </div>
+        
+      </form>
+      <button id="btnCreate" class="btn btn-default">Update</button>
+      <button id="btnRead" class="btn btn-default">Display</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button>
+
+    
+    </div>
+    <a href="index.html" class="button">back</a>
+    <script src="main.js">
+      
+      
+    </script>
+  </body>
+</html>
+
+

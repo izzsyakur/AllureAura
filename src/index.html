@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup API Example</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Nabla&family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
+    </style>
+    <link rel="stylesheet" href="index.css">
+    
+    
+</head>
+<body>
+    
+    <div class="top-bar">
+        <div class="container">
+            <div class="content">
+                <img src="AllureAura.png" alt="Logo" class="logo">
+            </div>
+            <div class="content">
+                <!-- Search bar with your existing HTML -->
+                <div class="search-container">
+                    <label for="brandInput"></label>
+                    <input type="text" id="brandInput" class="search-input" placeholder="Enter Brand">
+                    
+                </div>
+            </div>
+            <div class="content">
+                <!-- Add your third content here -->
+                <label for="productTypeSelect"></label>
+                <select id="productTypeSelect" class="search-input">
+                    <option value="" disabled selected>Select Product Type</option>
+                    <option value="lipstick">Lipstick</option>
+                    <option value="eyeliner">Eyeliner</option>
+                    <option value="nailpolish">Nailpolish</option>
+                    <option value="mascara">Mascara</option>
+                    <option value="lip_liner">Lip liner</option>
+                    <option value="foundation">Foundation</option>
+                    <option value="eyeshadow">Eye Shadow</option>
+                    <option value="eyebrow">Eye Brow</option>
+                    <option value="bronzer">Bronzer</option>
+                    <option value="blush">Blush</option>
+                    <!-- Add more product types as needed -->
+                </select>
+                <button class="search-button" onclick="fetchProductsByBrandAndType()">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- White box for product output -->
+    <div class="product-output">
+        <div id="productList" class="product-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <a href="index1.html" class="button">Update your makeup top list</a>
+
+    <br>
+
+    <div class="image-row">
+        <img src="attachment_71459254.jpeg" alt="Almay" class="image">
+        <img src="colourpop.png" alt="ColourPop" class="image">
+        <img src="dior.jpg" alt="Dior" class="image">
+      </div>
+      
+      
+    
+</body>
+</html>
